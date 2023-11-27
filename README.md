@@ -1,66 +1,64 @@
 # StockTranding-VR2
-StockTrad-Z can do the following activity:
-1. Display list of stocks with their current share price.
-2. Buy or sell selected stock in specified quantity. 
-3. Calculate order amount and brokers commission
+StockTrading có thể thực hiện hoạt động sau:
+1. Hiển thị danh sách cổ phiếu kèm theo giá cổ phiếu hiện tại.
+2. Mua hoặc bán cổ phiếu đã chọn với số lượng nhất định.
+3. Tính số tiền đặt hàng và hoa hồng môi giới
 
-# Output Screens
-## Landing Page
-This page is been made using [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML#:~:text=HTML%20(HyperText%20Markup%20Language)%20is,functionality%2Fbehavior%20(JavaScript).), 
-[CSS](https://developer.mozilla.org/en-US/docs/Web/CSS), [BOOTSTRAP](https://getbootstrap.com/) and [THEMELEAF](https://www.thymeleaf.org/).
-
-![Landing Page](Share-Data/snippets/landingPage.png)
-
-
-## Welcome Page
-This page is static for now but can be used to get news api and showing stock market news live.
-
-![Welcome Page](Share-Data/snippets/welcomePage.png)
-
-## Stocks Page
-The data used here is from database which you can find here [Stocks](https://github.com/modhtanmay/Stock-Trading-Management/blob/master/Share-Data/Sql%20Scripts/shares.sql). The improvement can be done where the data is dynamic using some stocks Apis. (will update it with necessary changes)
-
-![Stocks](Share-Data/snippets/stocksPage.png)
+# Màn hình đầu ra
+## Trang đích
+Trang này được tạo bằng:
+- [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML#:~:text=HTML%20(HyperText%20Markup%20Language)%20is,functionity% 2Fbehavior%20(JavaScript).),
+- [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) 
+- [BOOTSTRAP](https://getbootstrap.com/) và [THEMELEAF](https://www.thymeleaf .org/).
 
 
-## Orders Page
-Here the list of orders are seen which the trader traded from stocks Page. <br/> This is linked to database (For project management of data is using [JPA](https://spring.io/projects/spring-data-jpa) and database is [MySql Workbench](https://www.mysql.com/products/workbench/))
 
-![Stocks](Share-Data/snippets/ordersPage.png)
+## Trang chào mừng
+Trang này hiện tại tĩnh nhưng có thể được sử dụng để nhận API tin tức và hiển thị tin tức thị trường chứng khoán trực tiếp.
 
-# Technologies Used
 
-### Database
-[MySql](https://www.mysql.com/products/workbench/) : MySQL Workbench is a visual database design tool that integrates SQL development, administration, database design, creation and maintenance into a single integrated development environment for the MySQL database system.
+## Trang chứng khoán
+Dữ liệu được sử dụng ở đây là từ cơ sở dữ liệu mà bạn có thể tìm thấy ở đây. Việc cải tiến có thể được thực hiện khi dữ liệu động bằng cách sử dụng một số cổ phiếu Apis. (sẽ cập nhật nó với những thay đổi cần thiết)
 
-### Scripting
-[JavaScript](https://www.javascript.com/) : JavaScript, often abbreviated as JS, is a programming language that conforms to the ECMAScript specification. JavaScript is high-level, often just-in-time compiled, and multi-paradigm. It has curly-bracket syntax, dynamic typing, prototype-based object-orientation, and first-class functions.
 
-[JSP](https://www.tutorialspoint.com/jsp/index.htm) : JavaServer Pages (JSP) is a technology for developing Webpages that supports dynamic content. This helps developers insert java code in HTML pages by making use of special JSP tags, most of which start with <% and end with %>.
+## Trang đơn hàng
+Ở đây có danh sách các lệnh mà nhà giao dịch đã giao dịch từ Trang cổ phiếu. <br/> Điều này được liên kết với cơ sở dữ liệu (Đối với việc quản lý dự án, dữ liệu đang sử dụng [JPA](https://spring.io/projects/spring-data-jpa) và cơ sở dữ liệu là [MySql Workbench](https://www .mysql.com/products/workbench/))
 
-### FrontEnd
-[HTML/CSS](https://www.w3schools.com/html/) : Hypertext Markup Language is the standard markup language for documents designed to be displayed in a web browser. It can be assisted by technologies such as Cascading Style Sheets and scripting languages such as JavaScript.
+![Cổ phiếu](Chia sẻ dữ liệu/snippets/ordersPage.png)
 
-[BootStrap](https://getbootstrap.com/) : Bootstrap is a free and open-source CSS framework directed at responsive, mobile-first front-end web development. It contains CSS- and JavaScript-based design templates for typography, forms, buttons, navigation, and other interface components.
+# Công nghệ được sử dụng
 
-### BackEnd
-[Java](https://www.java.com/) : Java is a general-purpose programming language that is class-based, object-oriented, and designed to have as few implementation dependencies as possible.
+### Cơ sở dữ liệu
+[MySql](https://www.mysql.com/products/workbench/): MySQL Workbench là một công cụ thiết kế cơ sở dữ liệu trực quan tích hợp việc phát triển, quản trị, thiết kế, tạo và bảo trì cơ sở dữ liệu SQL vào một môi trường phát triển tích hợp duy nhất cho MySQL hệ thống cơ sở dữ liệu.
 
-[Spring MVC](https://docs.spring.io/spring/docs/3.2.x/spring-framework-reference/html/mvc.html) : The Spring Web MVC framework provides Model-View-Controller (MVC) architecture and ready components that can be used to develop flexible and loosely coupled web applications.
+### Viết kịch bản
+[JavaScript](https://www.javascript.com/) : JavaScript, thường được viết tắt là JS, là ngôn ngữ lập trình tuân thủ đặc tả ECMAScript. JavaScript ở cấp độ cao, thường được biên dịch đúng lúc và có nhiều mô hình. Nó có cú pháp dấu ngoặc nhọn, kiểu gõ động, hướng đối tượng dựa trên nguyên mẫu và các hàm hạng nhất.
 
-[Spring Boot](https://spring.io/projects/spring-boot) : Spring Boot is a project that is built on the top of the Spring Framework. It provides an easier and faster way to set up, configure, and run both simple and web-based applications. It is a Spring module that provides the RAD (Rapid Application Development) feature to the Spring Framework.
+[JSP](https://www.tutorialspoint.com/jsp/index.htm): JavaServer Pages (JSP) là một công nghệ để phát triển các Trang web hỗ trợ nội dung động. Điều này giúp các nhà phát triển chèn mã java vào các trang HTML bằng cách sử dụng các thẻ JSP đặc biệt, hầu hết các thẻ này bắt đầu bằng <% và kết thúc bằng %>.
 
-# Setup Required
-- Eclipse / Intellij IDE
-- JDK (jdk 10 and above)
-- JRE(any latest versions)
+### Giao diện người dùng
+[HTML/CSS](https://www.w3schools.com/html/): Ngôn ngữ đánh dấu siêu văn bản là ngôn ngữ đánh dấu tiêu chuẩn cho các tài liệu được thiết kế để hiển thị trong trình duyệt web. Nó có thể được hỗ trợ bởi các công nghệ như Cascading Style Sheets và các ngôn ngữ kịch bản như JavaScript.
+
+[BootStrap](https://getbootstrap.com/) : Bootstrap là một framework CSS mã nguồn mở và miễn phí hướng tới việc phát triển web front-end đáp ứng, ưu tiên thiết bị di động. Nó chứa các mẫu thiết kế dựa trên CSS và JavaScript cho kiểu chữ, biểu mẫu, nút, điều hướng và các thành phần giao diện khác.
+
+###Phần cuối
+[Java](https://www.java.com/): Java là ngôn ngữ lập trình có mục đích chung, dựa trên lớp, hướng đối tượng và được thiết kế để có ít phần phụ thuộc triển khai nhất có thể.
+
+[Spring MVC](https://docs.spring.io/spring/docs/3.2.x/spring-framework-reference/html/mvc.html): Khung Spring Web MVC cung cấp Model-View-Controller (MVC) kiến trúc và các thành phần sẵn sàng có thể được sử dụng để phát triển các ứng dụng web linh hoạt và được liên kết lỏng lẻo.
+
+[Spring Boot](https://spring.io/projects/spring-boot): Spring Boot là một dự án được xây dựng dựa trên Spring Framework. Nó cung cấp một cách dễ dàng và nhanh chóng hơn để thiết lập, định cấu hình và chạy cả ứng dụng đơn giản và ứng dụng dựa trên web. Đây là mô-đun Spring cung cấp tính năng RAD (Phát triển ứng dụng nhanh) cho Spring Framework.
+
+# Yêu cầu thiết lập
+- IDE Eclipse
+- JDK (jdk 10 trở lên)
+- JRE (bất kỳ phiên bản mới nhất nào)
 - Tomcat Server
-- Web Browser(Google Crome, Mozilla Firefox, Microsoft Edge)
+- Trình duyệt web (Google Crome, Mozilla Firefox, Microsoft Edge)
 
-# Running the Project
-- Clone the repository as a maven project.
-- Import all the dependencies.
-- Run Application.java to run the application.
-- You will see the processing and verification of the process during the Application run.
-- Open Browser and Type in [localhost:{server_port}](https://locallhost.com/). <br/>(Server Port Depends on local System you can change it by going here [server.port](https://github.com/modhtanmay/Stock-Trading-Management/blob/master/Share-Data/src/main/resources/application.properties))
-- That's it You are Good to go!!!.
+# Chạy dự án
+- Sao chép kho lưu trữ dưới dạng dự án maven.
+- Nhập tất cả các phụ thuộc.
+- Chạy Application.java để chạy ứng dụng.
+- Bạn sẽ thấy quá trình xử lý và xác minh quy trình trong quá trình chạy Ứng dụng.
+- Mở Trình duyệt và nhập [localhost:{server_port}](https://locallhost.com/).
+- Done.
