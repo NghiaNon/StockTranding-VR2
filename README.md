@@ -23,16 +23,15 @@ Dữ liệu được sử dụng ở đây là từ cơ sở dữ liệu mà b�
 
 
 ## Trang đơn hàng
-Ở đây có danh sách các lệnh mà nhà giao dịch đã giao dịch từ Trang cổ phiếu. <br/> Điều này được liên kết với cơ sở dữ liệu (Đối với việc quản lý dự án, dữ liệu đang sử dụng [JPA](https://spring.io/projects/spring-data-jpa) và cơ sở dữ liệu là [MySql Workbench](https://www .mysql.com/products/workbench/))
+Ở đây có danh sách các lệnh mà nhà giao dịch đã giao dịch từ Trang cổ phiếu. <br/> Điều này được liên kết với cơ sở dữ liệu (Đối với việc quản lý dự án, dữ liệu đang sử dụng [JPA](https://spring.io/projects/spring-data-jpa) và cơ sở dữ liệu là [MySql Workbench](https://www.mysql.com/products/workbench/))
 
-![Cổ phiếu](Chia sẻ dữ liệu/snippets/ordersPage.png)
 
 # Công nghệ được sử dụng
 
 ### Cơ sở dữ liệu
 [MySql](https://www.mysql.com/products/workbench/): MySQL Workbench là một công cụ thiết kế cơ sở dữ liệu trực quan tích hợp việc phát triển, quản trị, thiết kế, tạo và bảo trì cơ sở dữ liệu SQL vào một môi trường phát triển tích hợp duy nhất cho MySQL hệ thống cơ sở dữ liệu.
 
-### Viết kịch bản
+### Công cụ
 [JavaScript](https://www.javascript.com/) : JavaScript, thường được viết tắt là JS, là ngôn ngữ lập trình tuân thủ đặc tả ECMAScript. JavaScript ở cấp độ cao, thường được biên dịch đúng lúc và có nhiều mô hình. Nó có cú pháp dấu ngoặc nhọn, kiểu gõ động, hướng đối tượng dựa trên nguyên mẫu và các hàm hạng nhất.
 
 [JSP](https://www.tutorialspoint.com/jsp/index.htm): JavaServer Pages (JSP) là một công nghệ để phát triển các Trang web hỗ trợ nội dung động. Điều này giúp các nhà phát triển chèn mã java vào các trang HTML bằng cách sử dụng các thẻ JSP đặc biệt, hầu hết các thẻ này bắt đầu bằng <% và kết thúc bằng %>.
@@ -49,14 +48,14 @@ Dữ liệu được sử dụng ở đây là từ cơ sở dữ liệu mà b�
 
 [Spring Boot](https://spring.io/projects/spring-boot): Spring Boot là một dự án được xây dựng dựa trên Spring Framework. Nó cung cấp một cách dễ dàng và nhanh chóng hơn để thiết lập, định cấu hình và chạy cả ứng dụng đơn giản và ứng dụng dựa trên web. Đây là mô-đun Spring cung cấp tính năng RAD (Phát triển ứng dụng nhanh) cho Spring Framework.
 
-# Yêu cầu thiết lập
+# Yêu cầu
 - IDE Eclipse
 - JDK (jdk 10 trở lên)
 - JRE (bất kỳ phiên bản mới nhất nào)
 - Tomcat Server
 - Trình duyệt web (Google Crome, Mozilla Firefox, Microsoft Edge)
 
-# Chạy dự án
+# Chạy
 - Sao chép kho lưu trữ dưới dạng dự án maven.
 - Nhập tất cả các phụ thuộc.
 - Chạy Application.java để chạy ứng dụng.
