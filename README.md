@@ -52,7 +52,7 @@ Dữ liệu được sử dụng ở đây là từ cơ sở dữ liệu mà b�
 - IDE Eclipse
 - JDK (jdk 10 trở lên)
 - JRE (bất kỳ phiên bản mới nhất nào)
-- Tomcat Server
+- PHP admin/SQL server
 - Trình duyệt web (Google Crome, Mozilla Firefox, Microsoft Edge)
 
 # Chạy
