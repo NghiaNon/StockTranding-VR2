@@ -7,9 +7,10 @@ StockTrading có thể thực hiện hoạt động sau:
 # Màn hình đầu ra
 ## Trang đích
 Trang này được tạo bằng:
-- [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML#:~:text=HTML%20(HyperText%20Markup%20Language)%20is,functionity% 2Fbehavior%20(JavaScript).),
-- [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) 
-- [BOOTSTRAP](https://getbootstrap.com/) và [THEMELEAF](https://www.thymeleaf .org/).
+- [HTML]
+- [JAVASCRIPT]
+- [CSS]
+- [BOOTSTRAP]
 
 
 
