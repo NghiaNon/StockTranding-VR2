@@ -41,7 +41,7 @@ Dữ liệu được sử dụng ở đây là từ cơ sở dữ liệu mà b�
 
 [BootStrap](https://getbootstrap.com/) : Bootstrap là một framework CSS mã nguồn mở và miễn phí hướng tới việc phát triển web front-end đáp ứng, ưu tiên thiết bị di động. Nó chứa các mẫu thiết kế dựa trên CSS và JavaScript cho kiểu chữ, biểu mẫu, nút, điều hướng và các thành phần giao diện khác.
 
-###Phần cuối
+### Phần cuối
 [Java](https://www.java.com/): Java là một ngôn ngữ lập trình tổng quát, hướng đối tượng và thiết kế để có ít phụ thuộc vào triển khai nhất có thể.
 
 [Spring MVC](https://docs.spring.io/spring/docs/3.2.x/spring-framework-reference/html/mvc.html): Spring MVC là một framework Java được sử dụng để xây dựng các ứng dụng web. Nó tuân theo mô hình Thiết kế Model-View-Controller.
