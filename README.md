@@ -34,19 +34,19 @@ Dữ liệu được sử dụng ở đây là từ cơ sở dữ liệu mà b�
 ### Công cụ
 [JavaScript](https://www.javascript.com/) : JavaScript, thường được viết tắt là JS, là ngôn ngữ lập trình tuân thủ đặc tả ECMAScript. JavaScript ở cấp độ cao, thường được biên dịch đúng lúc và có nhiều mô hình. Nó có cú pháp dấu ngoặc nhọn, kiểu gõ động, hướng đối tượng dựa trên nguyên mẫu và các hàm hạng nhất.
 
-[JSP](https://www.tutorialspoint.com/jsp/index.htm): JavaServer Pages (JSP) là một công nghệ để phát triển các Trang web hỗ trợ nội dung động. Điều này giúp các nhà phát triển chèn mã java vào các trang HTML bằng cách sử dụng các thẻ JSP đặc biệt, hầu hết các thẻ này bắt đầu bằng <% và kết thúc bằng %>.
+[JSP](https://www.tutorialspoint.com/jsp/index.htm): JavaServer Pages (JSP) là một công nghệ phát triển trang web hỗ trợ nội dung động, cho phép chèn mã Java vào trang HTML bằng các thẻ JSP đặc biệt.
 
 ### Giao diện người dùng
-[HTML/CSS](https://www.w3schools.com/html/): Ngôn ngữ đánh dấu siêu văn bản là ngôn ngữ đánh dấu tiêu chuẩn cho các tài liệu được thiết kế để hiển thị trong trình duyệt web. Nó có thể được hỗ trợ bởi các công nghệ như Cascading Style Sheets và các ngôn ngữ kịch bản như JavaScript.
+[HTML/CSS](https://www.w3schools.com/html/): HTML là một ngôn ngữ đánh dấu tiêu chuẩn cho các tài liệu được hiển thị trong trình duyệt web, kết hợp với các công nghệ như CSS để tạo ra giao diện đẹp mắt.
 
 [BootStrap](https://getbootstrap.com/) : Bootstrap là một framework CSS mã nguồn mở và miễn phí hướng tới việc phát triển web front-end đáp ứng, ưu tiên thiết bị di động. Nó chứa các mẫu thiết kế dựa trên CSS và JavaScript cho kiểu chữ, biểu mẫu, nút, điều hướng và các thành phần giao diện khác.
 
 ###Phần cuối
-[Java](https://www.java.com/): Java là ngôn ngữ lập trình có mục đích chung, dựa trên lớp, hướng đối tượng và được thiết kế để có ít phần phụ thuộc triển khai nhất có thể.
+[Java](https://www.java.com/): Java là một ngôn ngữ lập trình tổng quát, hướng đối tượng và thiết kế để có ít phụ thuộc vào triển khai nhất có thể.
 
-[Spring MVC](https://docs.spring.io/spring/docs/3.2.x/spring-framework-reference/html/mvc.html): Khung Spring Web MVC cung cấp Model-View-Controller (MVC) kiến trúc và các thành phần sẵn sàng có thể được sử dụng để phát triển các ứng dụng web linh hoạt và được liên kết lỏng lẻo.
+[Spring MVC](https://docs.spring.io/spring/docs/3.2.x/spring-framework-reference/html/mvc.html): Spring MVC là một framework Java được sử dụng để xây dựng các ứng dụng web. Nó tuân theo mô hình Thiết kế Model-View-Controller.
 
-[Spring Boot](https://spring.io/projects/spring-boot): Spring Boot là một dự án được xây dựng dựa trên Spring Framework. Nó cung cấp một cách dễ dàng và nhanh chóng hơn để thiết lập, định cấu hình và chạy cả ứng dụng đơn giản và ứng dụng dựa trên web. Đây là mô-đun Spring cung cấp tính năng RAD (Phát triển ứng dụng nhanh) cho Spring Framework.
+[Spring Boot](https://spring.io/projects/spring-boot): Spring Boot là một dự án được xây dựng dựa trên Spring Framework. Spring Boot là một dự án giúp dễ dàng tạo các ứng dụng độc lập dựa trên Spring. Nó cung cấp cấu hình Spring tối thiểu, các phụ thuộc khởi động, các tính năng sẵn sàng cho sản xuất, và không cần tạo mã hoặc cấu hình XML.
 
 # Yêu cầu
 - IDE Eclipse
